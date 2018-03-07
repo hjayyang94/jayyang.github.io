@@ -1,0 +1,26 @@
+.pageIndicator {
+    position: fixed;
+    left: 0;
+    bottom: 30px;;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.selectedDot{
+    background-color: #000000;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
